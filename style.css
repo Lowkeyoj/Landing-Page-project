@@ -1,4 +1,24 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1{
+    
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+
 .header-1 img {
-    height: 25px;
+    height: 50px;
     width: auto;
 }
