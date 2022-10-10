@@ -1,15 +1,18 @@
 .body {
     display: flex;
     flex-direction: column;
+    background-color: pink;
 }
 
 .container-1{
+    background-color: red;
     
 }
 
 .header-1 {
     display: flex;
     justify-content: space-between;
+    padding: 25px;
 }
  
 .list {
@@ -21,4 +24,33 @@
 .header-1 img {
     height: 50px;
     width: auto;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.h2-container {
+   color: antiquewhite;
+}
+
+.button{
+    background-color: blue;
+    color: antiquewhite;
+    border-color: blue;
+    font-weight: 500;
+    height: 40px;
+    width: auto;
+}
+
+.h2-container2 {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: auto;
+    justify-content: center;
+    background-color: beige;
 }
